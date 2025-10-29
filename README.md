@@ -9,3 +9,29 @@ Present Gallena Medical Centre’s services, departments, and team professionall
 Enable patients to book appointments online.
 Provide quick access to contact details, location, and emergency information.
 Enhance visibility through SEO and responsive design.
+
+## React + Vite + Tailwind Setup
+
+Prerequisites: Node 18+ and npm.
+
+1. Install dependencies
+```
+npm install
+```
+
+2. Start dev server
+```
+npm run dev
+```
+
+3. Build for production
+```
+npm run build && npm run preview
+```
+
+Project entry: `index.html` → `src/main.tsx` → `src/App.tsx`
+
+Routes: Home `/`, Services `/services`, Staff `/staff`, Blog `/blog`, Contact `/contact`.
+
+Forms: Appointment form on Home and Contact form are front-end ready. Replace simulated requests with your API endpoint (e.g., `/api/appointments`).
+
