@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/gallena-medical-centre/', //required for GitHub Pages deployment
   server: {
     host: true,
     port: 5173
@@ -11,9 +13,4 @@ export default defineConfig({
     host: true,
     port: 4173
   }
-  export default {
-    base: '/gallena-medical-centre/', // 👈 required for GitHub Pages
-  }  
 })
-
-
