@@ -11,6 +11,9 @@ export default defineConfig({
     host: true,
     port: 4173
   }
+  export default {
+    base: '/gallena-medical-centre/', // 👈 required for GitHub Pages
+  }  
 })
 
 
