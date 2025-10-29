@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    --brand-green:#10b981;
+    --brand-blue:#0ea5e9;
+    --brand-navy:#0b3b4f;
+    --text-color:#0f172a; /* default */
+    --muted-color:#64748b; /* default */
+  }
+  html{scroll-behavior:smooth}
+}
+
+@layer components{
+  .btn{ @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-semibold transition border border-transparent; }
+  .btn-primary{ @apply text-white bg-gradient-to-tr from-brand-blue to-brand-green hover:brightness-105 hover:-translate-y-0.5; }
+  .btn-outline{ @apply bg-white border-slate-200 text-slate-900 hover:border-brand-blue hover:text-brand-navy dark:bg-slate-900 dark:border-slate-700 dark:text-slate-100; }
+  .card{ @apply bg-white text-slate-900 border border-slate-200 rounded-xl p-5 shadow-soft dark:bg-slate-900 dark:border-slate-700 dark:text-slate-100; }
+  .muted{ @apply text-slate-500 dark:text-slate-400; }
+}
+
+@layer utilities{
+  .container-1120{ @apply max-w-[1120px] w-[92%] mx-auto; }
+}
+
+/* Background hook for scroll-based color */
+#app-bg{ background-color: var(--page-bg, #f8fafc); color: var(--text-color, #0f172a); transition: background-color .4s ease, color .3s ease; }
+/* Muted text follows dynamic variable */
+.muted{ color: var(--muted-color, #64748b) !important; }
+/* Navbar background follows opposite color loop */
+#site-header{ background-color: var(--nav-bg, rgba(255,255,255,0.9)); transition: background-color .4s ease; }
+.dark #site-header{ border-color: #334155; }
+
+
