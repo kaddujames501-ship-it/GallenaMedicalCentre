@@ -11637,20 +11637,18 @@ function qh() {
               children: [
                 c.jsx('div', {
                   className: 'flex flex-wrap gap-2 mb-2',
-                  children: a
-                    .slice(0, 3)
-                    .map((f) =>
-                      c.jsx(
-                        'button',
-                        {
-                          onClick: () => u(f),
-                          className:
-                            'text-xs px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800',
-                          children: f,
-                        },
-                        f,
-                      ),
+                  children: a.slice(0, 3).map((f) =>
+                    c.jsx(
+                      'button',
+                      {
+                        onClick: () => u(f),
+                        className:
+                          'text-xs px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800',
+                        children: f,
+                      },
+                      f,
                     ),
+                  ),
                 }),
                 c.jsxs('form', {
                   onSubmit: h,

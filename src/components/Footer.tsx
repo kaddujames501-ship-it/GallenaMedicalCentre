@@ -15,31 +15,9 @@ export default function Footer() {
             </span>
             <span>Gallena Medical Centre</span>
           </Link>
-          <p className="muted text-sm">We Care to Heal !</p>
+          <p className="text-black italic text-2xl">We Care to Heal !</p>
         </div>
         <div>
-          <ul className="list-none m-0 p-0 flex gap-4 mb-3">
-            <li>
-              <Link to="/services" className="text-slate-900 hover:text-brand-navy">
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link to="/staff" className="text-slate-900 hover:text-brand-navy">
-                Staff
-              </Link>
-            </li>
-            <li>
-              <Link to="/blog" className="text-slate-900 hover:text-brand-navy">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="text-slate-900 hover:text-brand-navy">
-                Contact
-              </Link>
-            </li>
-          </ul>
           <ul className="list-none m-0 p-0 flex gap-3">
             <li>
               <a
@@ -47,7 +25,7 @@ export default function Footer() {
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-brand-navy no-underline"
+                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
               >
                 <svg
                   width="18"
@@ -66,7 +44,7 @@ export default function Footer() {
                 href="https://wa.me/256787992588"
                 target="_blank"
                 rel="noopener"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-brand-navy no-underline"
+                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
               >
                 <svg
                   width="18"
@@ -83,7 +61,7 @@ export default function Footer() {
               <a
                 aria-label="Email"
                 href="mailto:gallenamedicalcentre@gmail.com"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-brand-navy no-underline"
+                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
               >
                 <svg
                   width="18"

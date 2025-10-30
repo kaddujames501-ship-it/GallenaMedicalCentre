@@ -23,6 +23,31 @@ const FAQ: Array<{ q: string; a: string }> = [
     q: 'Do you accept insurance?',
     a: 'Yes, we accept a range of insurers. Please bring your insurance card; for specifics, contact our front desk.',
   },
+  {
+    q: 'What insurance do you accept?',
+    a: 'We partner with most major insurers. If you are unsure, call us or bring your card for verification.',
+  },
+  {
+    q: 'How do I get emergency care?',
+    a: 'For medical emergencies, please dial emergency services. For other urgent care, visit our facility directly during working hours.',
+  },
+  {
+    q: 'Can I request a specialist?',
+    a: 'Yes, you may request to see a specific doctor or specialist, subject to schedule availability.',
+  },
+  {
+    q: 'What are your COVID-19 policies?',
+    a: 'We follow the latest health guidelines: masks required, symptom screening at entry, and sanitizers available throughout the centre.',
+  },
+  { q: 'Is there parking available?', a: 'Yes, patient and visitor parking is available on site.' },
+  {
+    q: 'Can I get lab results online?',
+    a: 'Please contact the lab desk for portal access or delivery options. Some results can be issued online or sent to your email.',
+  },
+  {
+    q: 'Can children get immunizations?',
+    a: 'Absolutely! We offer childhood vaccinations according to the national schedule.',
+  },
 ];
 
 function normalize(s: string) {
@@ -44,7 +69,7 @@ export default function Chatbot() {
     endRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, open]);
 
-  const suggestions = useMemo(() => FAQ.map((f) => f.q), []);
+  const suggestions = useMemo(() => FAQ.map((f) => f.q).slice(0, 6), []);
 
   function findAnswer(text: string) {
     const n = normalize(text);
