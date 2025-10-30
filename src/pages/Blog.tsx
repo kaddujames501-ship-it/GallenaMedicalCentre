@@ -25,7 +25,7 @@ export default function Blog() {
         <div className="grid gap-5 md:grid-cols-3">
           {posts.map((p) => (
             <article key={p.t} className="card">
-              <div className="w-full h-36 rounded-xl bg-gradient-to-tr from-sky-100 to-emerald-100 border border-slate-200 mb-2" />
+              <div className="w-full h-36 rounded-xl bg-gradient-to-tr from-sky-100 to-emerald-100 border border-slate-200 mb-2 dark:bg-black dark:border-slate-700" />
               <h3 className="font-semibold">{p.t}</h3>
               <p className="muted">{p.d}</p>
               <a className="text-brand-navy font-semibold" href="#">

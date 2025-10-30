@@ -46,7 +46,7 @@ export default function Staff() {
         <div className="grid gap-5 md:grid-cols-4">
           {team.map((p) => (
             <article key={p.n} className="card">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-emerald-100 to-cyan-100 border border-slate-200 mb-2" />
+              <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-emerald-100 to-cyan-100 border border-slate-200 mb-2 dark:bg-slate-800 dark:border-slate-700" />
               <h3 className="font-semibold">{p.n}</h3>
               <p className="muted">{p.t}</p>
               <p>{p.d}</p>

@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
           <div aria-hidden className="reveal-up opacity-0 translate-y-3 transition">
-            <div className="w-full h-[280px] rounded-2xl border border-slate-200 shadow-soft bg-[radial-gradient(1200px_300px_at_-10%_-10%,#e6fffb_10%,transparent_40%),conic-gradient(from_0deg_at_50%_50%,rgba(16,185,129,.15),rgba(14,165,233,.15),rgba(14,165,233,.06),rgba(16,185,129,.06))]"></div>
+            <div className="w-full h-[280px] rounded-2xl border border-slate-200 shadow-soft bg-[radial-gradient(1200px_300px_at_-10%_-10%,#e6fffb_10%,transparent_40%),conic-gradient(from_0deg_at_50%_50%,rgba(16,185,129,.15),rgba(14,165,233,.15),rgba(14,165,233,.06),rgba(16,185,129,.06))] dark:hidden"></div>
           </div>
         </div>
       </section>
@@ -105,7 +105,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="services" className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent">
+      <section
+        id="services"
+        className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent dark:bg-transparent dark:bg-black"
+      >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
             <h2 className="text-3xl font-semibold">Medical Services</h2>
@@ -150,7 +153,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="staff" className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent">
+      <section
+        id="staff"
+        className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent dark:bg-transparent dark:bg-black"
+      >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
             <h2 className="text-3xl font-semibold">Our Team</h2>
@@ -180,7 +186,7 @@ export default function Home() {
               },
             ].map((p, idx) => (
               <article key={idx} className="card reveal-up opacity-0 translate-y-3 transition">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-emerald-100 to-cyan-100 border border-slate-200 mb-2" />
+                <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-emerald-100 to-cyan-100 border border-slate-200 mb-2 dark:bg-slate-800 dark:border-slate-700" />
                 <h3 className="font-semibold">{p.n}</h3>
                 <p className="muted">{p.t}</p>
                 <p>{p.d}</p>
@@ -234,7 +240,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="testimonials" className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent">
+      <section
+        id="testimonials"
+        className="py-16 bg-gradient-to-b from-[#f4fbfb] to-transparent dark:bg-transparent dark:bg-black"
+      >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
             <h2 className="text-3xl font-semibold">Patient Testimonials</h2>

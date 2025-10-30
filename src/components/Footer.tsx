@@ -25,11 +25,11 @@ export default function Footer() {
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
+                className="grid place-items-center w-10 h-10 rounded-xl bg-[#eef8f8] text-black no-underline border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)] dark:bg-slate-900 pop-on-scroll visible"
               >
                 <svg
-                  width="18"
-                  height="18"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden="true"
@@ -44,11 +44,11 @@ export default function Footer() {
                 href="https://wa.me/256787992588"
                 target="_blank"
                 rel="noopener"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
+                className="grid place-items-center w-10 h-10 rounded-xl bg-[#eef8f8] text-black no-underline pop-on-scroll visible border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)] dark:bg-slate-900"
               >
                 <svg
-                  width="18"
-                  height="18"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden="true"
@@ -61,11 +61,11 @@ export default function Footer() {
               <a
                 aria-label="Email"
                 href="mailto:gallenamedicalcentre@gmail.com"
-                className="grid place-items-center w-8 h-8 rounded-lg bg-[#eef8f8] text-[#0b3b4f] no-underline"
+                className="grid place-items-center w-10 h-10 rounded-xl bg-[#eef8f8] text-black no-underline pop-on-scroll visible border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)] dark:bg-slate-900"
               >
                 <svg
-                  width="18"
-                  height="18"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden="true"

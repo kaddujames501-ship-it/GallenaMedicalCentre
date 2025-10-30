@@ -26,7 +26,8 @@
     @apply bg-white border-slate-200 text-slate-900 hover:border-brand-blue hover:text-brand-navy dark:bg-slate-900 dark:border-slate-700 dark:text-slate-100;
   }
   .card {
-    @apply bg-white text-slate-900 border border-slate-200 rounded-xl p-5 shadow-soft dark:bg-slate-900 dark:border-slate-700 dark:text-slate-100;
+    @apply bg-white text-slate-900 border border-brand-green rounded-xl p-5 dark:bg-black dark:border-brand-green dark:text-slate-100;
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.25);
   }
   .muted {
     @apply text-slate-500 dark:text-slate-400;
@@ -59,7 +60,7 @@
 }
 .dark #site-header {
   background-color: #0ea5e9 !important;
-  color: #fff !important;
+  color: #ffffff !important;
 }
 .site-footer {
   background-color: #10b981 !important;
@@ -79,4 +80,19 @@
   color: #fff !important;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding: 0 0 8px 0;
+}
+
+/* (Reverted) No dark overrides for footer/subfooter; remain green */
+
+/* Pop-in on scroll */
+.pop-on-scroll {
+  opacity: 0;
+  transform: translateX(-16px);
+  transition:
+    opacity 0.45s ease,
+    transform 0.45s ease;
+}
+.pop-on-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
 }

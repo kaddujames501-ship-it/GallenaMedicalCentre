@@ -9,6 +9,7 @@ import Staff from './pages/Staff';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Chatbot from './components/Chatbot';
+import ContactFloat from './components/ContactFloat';
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
       </main>
       <Footer />
       <Chatbot />
+      <ContactFloat />
     </div>
   );
 }

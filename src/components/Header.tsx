@@ -43,7 +43,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/services"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
               >
                 Services
               </NavLink>
@@ -51,7 +51,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/staff"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
               >
                 Staff
               </NavLink>
@@ -59,7 +59,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/blog"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
               >
                 Blog
               </NavLink>
@@ -67,7 +67,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/contact"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
               >
                 Contact
               </NavLink>
