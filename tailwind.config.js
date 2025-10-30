@@ -1,33 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
-  content: [
-    './index.html',
-    './src/**/*.{ts,tsx,js,jsx}'
-  ],
+  content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
   theme: {
     extend: {
       colors: {
         brand: {
           green: '#10b981',
           blue: '#0ea5e9',
-          navy: '#0b3b4f'
-        }
+          navy: '#0b3b4f',
+        },
       },
       boxShadow: {
-        soft: '0 10px 30px rgba(2,6,23,.08)'
+        soft: '0 10px 30px rgba(2,6,23,.08)',
       },
       borderRadius: {
-        xl: '14px'
-      }
+        xl: '14px',
+      },
     },
     container: {
       center: true,
       padding: '4%',
-      screens: { lg: '1120px' }
-    }
+      screens: { lg: '1120px' },
+    },
   },
-  plugins: []
-}
-
-
+  plugins: [],
+};
