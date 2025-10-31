@@ -13,7 +13,7 @@ const FAQ: Array<{ q: string; a: string }> = [
   },
   {
     q: 'Where are you located?',
-    a: 'Our address is 123 Health Avenue, Wellness District, Accra. See the map on the Contact page.',
+    a: 'Our address is Valley View Estate - Kitagobwa, Buwambo Rd, Wakiso, Uganda. See the map on the Contact page.',
   },
   {
     q: 'What are your working hours?',
