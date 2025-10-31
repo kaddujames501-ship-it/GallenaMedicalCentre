@@ -74,7 +74,9 @@ export default function Home() {
       <section id="about" className="py-16">
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">About Us</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              About Us
+            </h2>
             <p className="muted">
               Gallena Medical Centre is committed to clinical excellence, safety, and compassionate
               service. Our multi-disciplinary team leverages modern technology to deliver reliable
@@ -111,7 +113,9 @@ export default function Home() {
       >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">Medical Services</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              Medical Services
+            </h2>
             <p className="muted">
               Comprehensive services delivered by specialists across key disciplines.
             </p>
@@ -144,7 +148,9 @@ export default function Home() {
       <section id="consultation" className="py-16">
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">Book a Consultation</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              Book a Consultation
+            </h2>
             <p className="muted">
               Complete the form and our team will contact you to confirm your appointment.
             </p>
@@ -159,7 +165,9 @@ export default function Home() {
       >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">Our Team</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              Our Team
+            </h2>
             <p className="muted">Dedicated professionals delivering exceptional care.</p>
           </div>
           <div className="grid gap-5 md:grid-cols-4">
@@ -204,7 +212,9 @@ export default function Home() {
       <section id="blog" className="py-16">
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">From Our Blog</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              From Our Blog
+            </h2>
             <p className="muted">Health tips, hospital news, and community updates.</p>
           </div>
           <div className="grid gap-5 md:grid-cols-3">
@@ -246,7 +256,9 @@ export default function Home() {
       >
         <div className="container-1120">
           <div className="max-w-3xl mx-auto text-center mb-7 reveal-up opacity-0 translate-y-3 transition">
-            <h2 className="text-3xl font-semibold">Patient Testimonials</h2>
+            <h2 className="btn btn-primary text-2xl mb-[0.5cm] border border-brand-blue shadow-[0_8px_20px_rgba(14,165,233,.35)]">
+              Patient Testimonials
+            </h2>
             <p className="muted">Real stories from those we serve.</p>
           </div>
           <div className="relative">

@@ -23,7 +23,7 @@ export default function Header() {
           <span className="grid place-items-center w-7 h-7 rounded-lg text-white font-bold bg-gradient-to-tr from-brand-blue to-brand-green">
             +
           </span>
-          <span className="whitespace-nowrap dark:text-slate-100 text-xl md:text-2xl">
+          <span className="whitespace-nowrap dark:text-slate-100 text-xl md:text-2xl italic">
             Gallena Medical Centre
           </span>
         </Link>
@@ -43,7 +43,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/services"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold text-xl md:text-2xl"
               >
                 Services
               </NavLink>
@@ -51,7 +51,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/staff"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold text-xl md:text-2xl"
               >
                 Staff
               </NavLink>
@@ -59,7 +59,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/blog"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold text-xl md:text-2xl"
               >
                 Blog
               </NavLink>
@@ -67,7 +67,7 @@ export default function Header() {
             <li>
               <NavLink
                 to="/contact"
-                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold"
+                className="px-2 py-2 rounded-lg text-slate-900 dark:text-slate-100 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-bold text-xl md:text-2xl"
               >
                 Contact
               </NavLink>

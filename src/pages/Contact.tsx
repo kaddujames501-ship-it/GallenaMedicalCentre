@@ -126,14 +126,14 @@ export default function Contact() {
               </a>
             </p>
             <p>
-              <strong>Address:</strong> 123 Health Avenue, Wellness District, Accra
+              <strong>Address:</strong> Valley View Estate - Kitagobwa, Buwambo Rd, Wakiso, Uganda
             </p>
             <div className="mt-3 border border-slate-200 rounded-xl overflow-hidden">
               <iframe
                 title="Google Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.981!2d-0.190!3d5.603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNS42MDMgLTAuMTkw!5e0!3m2!1sen!2sgh!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.701354536795!2d32.5611546!3d0.43872419999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db1131678b029%3A0x18f3e6ec756405fb!2sKitagobwa%20Valley%20View%20Estate!5e0!3m2!1sen!2sug!4v1761890858304!5m2!1sen!2sug"
                 width="100%"
-                height="260"
+                height="360"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
