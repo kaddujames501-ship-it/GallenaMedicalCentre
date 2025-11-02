@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/gallena-medical-centre/', //required for GitHub Pages deployment
+  base: '/', //required for GitHub Pages deployment
   server: {
     host: true,
     port: 5173,
