@@ -481,6 +481,9 @@ html {
 .mb-7 {
   margin-bottom: 1.75rem;
 }
+.mb-\[0\.5cm\] {
+  margin-bottom: 0.5cm;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
