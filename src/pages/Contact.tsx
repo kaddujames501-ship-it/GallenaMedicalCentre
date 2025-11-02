@@ -131,9 +131,11 @@ export default function Contact() {
             <div className="mt-3 border border-slate-200 rounded-xl overflow-hidden">
               <iframe
                 title="Google Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.701354536795!2d32.5611546!3d0.43872419999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db1131678b029%3A0x18f3e6ec756405fb!2sKitagobwa%20Valley%20View%20Estate!5e0!3m2!1sen!2sug!4v1761890858304!5m2!1sen!2sug"
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127670.45903231614!2d32.47907342490039!3d0.43780384724524285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x177db117412d78eb%3A0x661fe967add4b853!2sValley%20View%20estate%2C%20Kampala!3m2!1d0.4378043!2d32.5614754!5e0!3m2!1sen!2sug!4v1762115863796!5m2!1sen!2sug"
                 width="100%"
-                height="360"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
