@@ -88,19 +88,6 @@ export default function Home() {
     }
   }, [location.hash]);
 
-  // Check if user is logged in
-  useEffect(() => {
-    const token = localStorage.getItem('admin_token');
-    setIsLoggedIn(!!token);
-  }, []);
-
-  // Fetch submissions when logged in
-  useEffect(() => {
-    if (isLoggedIn) {
-      fetchSubmissions();
-    }
-  }, [isLoggedIn, fetchSubmissions]);
-
   function getAuthHeaders() {
     const token = localStorage.getItem('admin_token');
     return {
@@ -151,6 +138,19 @@ export default function Home() {
       setAdminLoading(false);
     }
   }, []);
+
+  // Check if user is logged in
+  useEffect(() => {
+    const token = localStorage.getItem('admin_token');
+    setIsLoggedIn(!!token);
+  }, []);
+
+  // Fetch submissions when logged in
+  useEffect(() => {
+    if (isLoggedIn) {
+      fetchSubmissions();
+    }
+  }, [isLoggedIn, fetchSubmissions]);
 
   async function deleteSubmission(type: 'appointments' | 'contact', id: string) {
     if (!confirm('Are you sure you want to delete this submission?')) return;

@@ -22,13 +22,6 @@ export default function Admin() {
   const [exporting, setExporting] = useState(false);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetchSubmissions();
-    // Refresh every 30 seconds
-    const interval = setInterval(fetchSubmissions, 30000);
-    return () => clearInterval(interval);
-  }, [fetchSubmissions]);
-
   function getAuthHeaders() {
     const token = localStorage.getItem('admin_token');
     return {
@@ -80,6 +73,13 @@ export default function Admin() {
       setLoading(false);
     }
   }, [navigate]);
+
+  useEffect(() => {
+    fetchSubmissions();
+    // Refresh every 30 seconds
+    const interval = setInterval(fetchSubmissions, 30000);
+    return () => clearInterval(interval);
+  }, [fetchSubmissions]);
 
   async function deleteSubmission(type: 'appointments' | 'contact', id: string) {
     if (!confirm('Are you sure you want to delete this submission?')) return;
@@ -133,7 +133,7 @@ export default function Admin() {
       let filename = `submissions-${Date.now()}.${format}`;
       if (contentDisposition) {
         const matches = contentDisposition.match(/filename="(.+)"/);
-        if (matches) filename = matches[1];
+        if (matches && matches[1]) filename = matches[1];
       }
 
       // Download file
